@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow-neo1 {
+    @apply border-2 border-hitam shadow-[2px_2px_0px_0px] shadow-hitam;
+}
+
+.shadow-neo2 {
+    @apply border-4 border-hitam shadow-[4px_4px_0px_0px] shadow-hitam;
+}
+
+.shadow-neo3 {
+    @apply border-2 border-hitam shadow-[3px_3px_0px_0px] shadow-hitam;
+}
